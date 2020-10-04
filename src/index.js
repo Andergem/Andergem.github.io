@@ -8,7 +8,7 @@ import ReactDOM from 'react-dom';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
-import Badge from './componentes/badge';
+import BadgeNew from './pages/BadgeNew';
 
  
 
@@ -17,11 +17,7 @@ const container = document.getElementById('app');
 
 //ReactDOM.render(__qué__, __donde__); qué: que vas a poner; donde: en que lugar
 ReactDOM.render(
-    <Badge 
-        firstName="Anderson"
-        lastName="Lopez" 
-        jobTittle="Ingenier Informatic"
-        twitter="Anderson"
-        avatarUrl="https://www.gravatar.com/avatar?d=identicon"
+    <BadgeNew
+      
     />, 
     container);//recordemos que al reactdom siempre hay que darle un elemento por eso al Badge lo colocamos asi < />
