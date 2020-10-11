@@ -9,6 +9,8 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
 import BadgeNew from './pages/BadgeNew';
+import Badges from './pages/Badges';
+
 
  
 
@@ -17,7 +19,7 @@ const container = document.getElementById('app');
 
 //ReactDOM.render(__qué__, __donde__); qué: que vas a poner; donde: en que lugar
 ReactDOM.render(
-    <BadgeNew
+    <Badges
       
     />, 
     container);//recordemos que al reactdom siempre hay que darle un elemento por eso al Badge lo colocamos asi < />
